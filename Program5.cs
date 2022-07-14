@@ -31,10 +31,12 @@ namespace array
             for (int i = 0; i < userInput; i++)
             {
                 firstNumber = numbersArray[0];
+                
                 for (int j =  0; j < arraySise-1; j++)
                 {
                     numbersArray[j] = numbersArray[j + 1];                   
                 }
+                
                 numbersArray[arraySise - 1] = firstNumber;
             }
 
